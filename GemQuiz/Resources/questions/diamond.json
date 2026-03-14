@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "id": "diamond_001",
+    "category": "diamond",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "question": "ダイヤモンドのモース硬度はいくつですか？",
+    "options": ["7", "8", "9", "10"],
+    "correct_index": 3,
+    "explanation": "ダイヤモンドはモース硬度10で、天然鉱物の中で最も硬い物質です。炭素原子が強固な共有結合で結びついているため、非常に硬くなります。",
+    "image_name": null,
+    "tags": ["hardness", "basic"]
+  },
+  {
+    "id": "diamond_002",
+    "category": "diamond",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "question": "ダイヤモンドの4Cに含まれないものはどれですか？",
+    "options": ["カラット", "カラー", "カット", "コスト"],
+    "correct_index": 3,
+    "explanation": "4CはCarat（重量）・Color（色）・Cut（研磨）・Clarity（透明度）の4つです。コスト（価格）は含まれません。",
+    "image_name": null,
+    "tags": ["4C", "grading", "basic"]
+  },
+  {
+    "id": "diamond_003",
+    "category": "diamond",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "question": "ダイヤモンドの結晶系はどれですか？",
+    "options": ["六方晶系", "正方晶系", "等軸晶系", "斜方晶系"],
+    "correct_index": 2,
+    "explanation": "ダイヤモンドは等軸晶系（立方晶系）に属します。炭素原子が正四面体状に配列しており、八面体や立方体などの結晶形を示します。",
+    "image_name": null,
+    "tags": ["crystal", "structure"]
+  },
+  {
+    "id": "diamond_004",
+    "category": "diamond",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "question": "ダイヤモンドのカラーグレードで最も無色に近いグレードはどれですか？",
+    "options": ["D", "A", "Z", "F"],
+    "correct_index": 0,
+    "explanation": "GIA（米国宝石学会）のカラーグレードはDから始まりZまであります。Dが最も無色（エクセプショナル・ホワイト）で、アルファベットが進むほど黄色みが増します。",
+    "image_name": null,
+    "tags": ["color", "grading", "GIA"]
+  },
+  {
+    "id": "diamond_005",
+    "category": "diamond",
+    "difficulty": 4,
+    "type": "multiple_choice",
+    "question": "ダイヤモンドの屈折率として正しいものはどれですか？",
+    "options": ["1.52", "1.76", "2.42", "1.95"],
+    "correct_index": 2,
+    "explanation": "ダイヤモンドの屈折率は2.42と非常に高く、これが強い輝きと分散の原因です。光の分散値（fire）も0.044と宝石の中でも高い部類に入ります。",
+    "image_name": null,
+    "tags": ["refractive_index", "optics", "advanced"]
+  }
+]

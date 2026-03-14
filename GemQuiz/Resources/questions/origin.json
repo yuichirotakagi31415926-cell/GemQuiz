@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "id": "origin_001",
+    "category": "origin",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "question": "世界最大のダイヤモンド産出国（現在）はどこですか？",
+    "options": ["南アフリカ", "ロシア", "インド", "ボツワナ"],
+    "correct_index": 1,
+    "explanation": "現在の世界最大のダイヤモンド産出国はロシアで、ALROSA社が主要産出を担っています。かつてはインドが唯一の産出地でした。",
+    "image_name": null,
+    "tags": ["origin", "diamond", "russia"]
+  },
+  {
+    "id": "origin_002",
+    "category": "origin",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "question": "コロンビアは主にどの宝石の産地として有名ですか？",
+    "options": ["サファイア", "ルビー", "エメラルド", "アレキサンドライト"],
+    "correct_index": 2,
+    "explanation": "コロンビアは世界最高品質のエメラルドの産地として有名です。ムソー・チボール・コスケスの鉱山が有名で、世界のエメラルド生産量の約半分を占めます。",
+    "image_name": null,
+    "tags": ["origin", "emerald", "colombia"]
+  },
+  {
+    "id": "origin_003",
+    "category": "origin",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "question": "スリランカ（旧セイロン）が特に有名な宝石はどれですか？",
+    "options": ["エメラルド", "ルビー", "サファイア", "アレキサンドライト"],
+    "correct_index": 2,
+    "explanation": "スリランカは美しいサファイアの産地として古くから有名です。コーンフラワーブルーのサファイアやスターサファイアが多く産出されます。",
+    "image_name": null,
+    "tags": ["origin", "sapphire", "sri_lanka"]
+  },
+  {
+    "id": "origin_004",
+    "category": "origin",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "question": "カシミール産サファイアが珍重される最大の理由はどれですか？",
+    "options": ["蛍光性が非常に強い", "「眠たげな（velvety）」独特の青みと希少性", "スター効果が強い", "完全無処理のものが多い"],
+    "correct_index": 1,
+    "explanation": "カシミール産サファイアは「コーンフラワーブルー」と呼ばれるベルベットのような独特の青色が特徴です。19世紀末に発見後現在はほぼ産出が途絶えており非常に希少です。",
+    "image_name": null,
+    "tags": ["origin", "sapphire", "kashmir"]
+  },
+  {
+    "id": "origin_005",
+    "category": "origin",
+    "difficulty": 4,
+    "type": "multiple_choice",
+    "question": "アレキサンドライトが初めて発見された場所はどこですか？",
+    "options": ["ブラジル・ミナスジェライス州", "スリランカ", "ロシア・ウラル山脈", "タンザニア"],
+    "correct_index": 2,
+    "explanation": "アレキサンドライトは1830年代にロシアのウラル山脈で発見されました。当時のロシア皇帝アレクサンドル2世にちなんで命名され、昼光下で緑・白熱灯下で赤に変色することで知られます。",
+    "image_name": null,
+    "tags": ["origin", "alexandrite", "russia", "history"]
+  }
+]

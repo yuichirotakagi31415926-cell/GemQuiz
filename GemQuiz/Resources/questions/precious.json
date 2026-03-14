@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "id": "precious_001",
+    "category": "precious",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "question": "次のうち「四大宝石」に含まれないものはどれですか？",
+    "options": ["ダイヤモンド", "ルビー", "エメラルド", "アメジスト"],
+    "correct_index": 3,
+    "explanation": "四大宝石（プレシャスストーン）はダイヤモンド・ルビー・エメラルド・サファイアの4つです。アメジストはセミプレシャスストーン（半貴石）に分類されます。",
+    "image_name": null,
+    "tags": ["classification", "basic", "precious"]
+  },
+  {
+    "id": "precious_002",
+    "category": "precious",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "question": "宝石の重量単位「カラット」は何グラムですか？",
+    "options": ["0.1g", "0.2g", "0.5g", "1.0g"],
+    "correct_index": 1,
+    "explanation": "宝石のカラット（ct）は0.2グラムです。金の純度を表すカラット（K）とは異なります。1カラット＝0.2グラム＝200ミリグラムと覚えましょう。",
+    "image_name": null,
+    "tags": ["carat", "weight", "basic"]
+  },
+  {
+    "id": "precious_003",
+    "category": "precious",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "question": "宝石の三条件として正しい組み合わせはどれですか？",
+    "options": ["美しさ・硬度・産地", "美しさ・耐久性・希少性", "透明度・輝き・色", "産地・重量・歴史"],
+    "correct_index": 1,
+    "explanation": "宝石の三条件は「美しさ（Beauty）」「耐久性（Durability）」「希少性（Rarity）」の3つです。この3つを兼ね備えたものが宝石として価値を持ちます。",
+    "image_name": null,
+    "tags": ["definition", "basic"]
+  },
+  {
+    "id": "precious_004",
+    "category": "precious",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "question": "光が宝石内部で全反射するために必要な条件はどれですか？",
+    "options": ["入射角が臨界角より小さい", "入射角が臨界角より大きい", "屈折率が1.0より小さい", "光の波長が可視光外にある"],
+    "correct_index": 1,
+    "explanation": "全反射は入射角が臨界角を超えたときに起こります。宝石の輝き（ブリリアンス）はこの全反射を最大化するようにカットが設計されています。臨界角は屈折率が高いほど小さくなります。",
+    "image_name": null,
+    "tags": ["optics", "total_reflection", "brilliance"]
+  },
+  {
+    "id": "precious_005",
+    "category": "precious",
+    "difficulty": 4,
+    "type": "multiple_choice",
+    "question": "分散（ファイア）の値が最も大きい宝石はどれですか？",
+    "options": ["ダイヤモンド", "デマントイドガーネット", "スファレライト", "ルチル"],
+    "correct_index": 2,
+    "explanation": "スファレライトの分散値は0.156と非常に高く、ダイヤモンド（0.044）やデマントイドガーネット（0.057）を大きく上回ります。ただし硬度が低く（3〜4）宝石としての耐久性に難があります。",
+    "image_name": null,
+    "tags": ["dispersion", "fire", "advanced"]
+  }
+]

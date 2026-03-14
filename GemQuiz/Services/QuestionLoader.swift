@@ -7,9 +7,11 @@ struct QuestionLoader {
     ]
 
     static func load(from fileName: String) -> [Question] {
+        let decoder = JSONDecoder()
+        decoder.keyDecodingStrategy = .convertFromSnakeCase
         guard let url = Bundle.main.url(forResource: fileName, withExtension: "json"),
               let data = try? Data(contentsOf: url),
-              let questions = try? JSONDecoder().decode([Question].self, from: data) else {
+              let questions = try? decoder.decode([Question].self, from: data) else {
             return []
         }
         return questions

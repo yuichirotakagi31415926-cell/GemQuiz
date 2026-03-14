@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "id": "quartz_001",
+    "category": "quartz",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "question": "紫色のクォーツの宝石名はどれですか？",
+    "options": ["シトリン", "アメジスト", "ローズクォーツ", "スモーキークォーツ"],
+    "correct_index": 1,
+    "explanation": "紫色のクォーツはアメジストと呼ばれます。2月の誕生石でもあります。鉄（Fe）と放射線照射による発色です。",
+    "image_name": null,
+    "tags": ["amethyst", "basic", "color"]
+  },
+  {
+    "id": "quartz_002",
+    "category": "quartz",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "question": "クォーツ（水晶）のモース硬度はいくつですか？",
+    "options": ["5", "6", "7", "8"],
+    "correct_index": 2,
+    "explanation": "クォーツ（水晶・石英）のモース硬度は7です。ガラス（硬度5〜6）より硬く、硬度の基準鉱物の一つとして知られています。",
+    "image_name": null,
+    "tags": ["hardness", "basic"]
+  },
+  {
+    "id": "quartz_003",
+    "category": "quartz",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "question": "シトリンの色として正しいものはどれですか？",
+    "options": ["青色", "黄色〜橙色", "緑色", "赤色"],
+    "correct_index": 1,
+    "explanation": "シトリンは黄色から橙色のクォーツです。天然のシトリンは希少で、市場に出回るものの多くはアメジストやスモーキークォーツを加熱処理して作られたものです。",
+    "image_name": null,
+    "tags": ["citrine", "color", "treatment"]
+  },
+  {
+    "id": "quartz_004",
+    "category": "quartz",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "question": "アメジストを加熱処理すると何に変化することが多いですか？",
+    "options": ["ローズクォーツ", "シトリン", "プラシオライト（緑水晶）", "スモーキークォーツ"],
+    "correct_index": 1,
+    "explanation": "アメジストを約400〜500℃で加熱処理すると、シトリン（黄色）に変化することが多いです。市場のシトリンの多くはこの処理品です。",
+    "image_name": null,
+    "tags": ["amethyst", "citrine", "heat_treatment"]
+  },
+  {
+    "id": "quartz_005",
+    "category": "quartz",
+    "difficulty": 4,
+    "type": "multiple_choice",
+    "question": "クォーツの屈折率として正しいものはどれですか？",
+    "options": ["1.486〜1.498", "1.544〜1.553", "1.624〜1.644", "1.760〜1.768"],
+    "correct_index": 1,
+    "explanation": "クォーツ（水晶）の屈折率はo光線1.544、e光線1.553で、一軸性（正）の複屈折を示します。複屈折値は0.009です。",
+    "image_name": null,
+    "tags": ["refractive_index", "optics", "advanced"]
+  }
+]

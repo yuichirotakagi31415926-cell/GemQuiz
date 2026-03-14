@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "id": "gemology_001",
+    "category": "gemology",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "question": "宝石の光沢のうち「金属光沢」を示す鉱物はどれですか？",
+    "options": ["ダイヤモンド", "パイライト", "クォーツ", "オパール"],
+    "correct_index": 1,
+    "explanation": "パイライト（黄鉄鉱）は金属光沢を示します。ダイヤモンドはアダマンティン光沢、クォーツはガラス光沢、オパールは樹脂〜ガラス光沢を示します。",
+    "image_name": null,
+    "tags": ["luster", "optics"]
+  },
+  {
+    "id": "gemology_002",
+    "category": "gemology",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "question": "複屈折を示さない（等方性の）宝石グループはどれですか？",
+    "options": ["コランダム（ルビー・サファイア）", "ベリル（エメラルド）", "ガーネット", "クォーツ"],
+    "correct_index": 2,
+    "explanation": "ガーネットは等軸晶系（立方晶系）に属するため、光学的に等方性で複屈折を示しません。コランダム・ベリル・クォーツはいずれも複屈折を示します。",
+    "image_name": null,
+    "tags": ["birefringence", "crystal", "isotropic"]
+  },
+  {
+    "id": "gemology_003",
+    "category": "gemology",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "question": "三色性（トリクロイズム）が特に強い宝石として知られるのはどれですか？",
+    "options": ["ダイヤモンド", "アイオライト", "スピネル", "パール"],
+    "correct_index": 1,
+    "explanation": "アイオライト（菫青石）は方向によって青紫・淡青・淡黄という3色に見える三色性が非常に強い宝石です。歴史的にバイキングが羅針盤の代わりに使ったとも言われます。",
+    "image_name": null,
+    "tags": ["pleochroism", "trichroism", "iolite"]
+  },
+  {
+    "id": "gemology_004",
+    "category": "gemology",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "question": "比重（SG）が最も重い宝石はどれですか？",
+    "options": ["ダイヤモンド（SG 3.52）", "コランダム（SG 4.00）", "ジルコン（SG 4.69）", "クォーツ（SG 2.65）"],
+    "correct_index": 2,
+    "explanation": "ジルコン（ハイタイプ）の比重は4.69と宝石の中でも重い部類です。コランダムは4.00、ダイヤモンドは3.52、クォーツは2.65です。",
+    "image_name": null,
+    "tags": ["specific_gravity", "identification"]
+  },
+  {
+    "id": "gemology_005",
+    "category": "gemology",
+    "difficulty": 4,
+    "type": "multiple_choice",
+    "question": "偏光器（ポラリスコープ）でSR（単屈折）反応を示す宝石はどれですか？",
+    "options": ["エメラルド", "ルビー", "スピネル", "ペリドット"],
+    "correct_index": 2,
+    "explanation": "スピネルは等軸晶系（立方晶系）で等方性のため、ポラリスコープではSR（Single Refractive）反応を示します。エメラルド・ルビー・ペリドットはいずれも複屈折のためDR反応を示します。",
+    "image_name": null,
+    "tags": ["polariscope", "identification", "advanced"]
+  }
+]

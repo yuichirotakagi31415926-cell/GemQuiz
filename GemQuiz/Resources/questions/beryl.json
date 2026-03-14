@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "id": "beryl_001",
+    "category": "beryl",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "question": "緑色のベリルの宝石名はどれですか？",
+    "options": ["アクアマリン", "エメラルド", "モルガナイト", "ヘリオドール"],
+    "correct_index": 1,
+    "explanation": "緑色のベリルはエメラルドと呼ばれます。アクアマリンは水色、モルガナイトはピンク〜オレンジ色、ヘリオドールは黄色のベリルです。",
+    "image_name": null,
+    "tags": ["emerald", "basic", "color"]
+  },
+  {
+    "id": "beryl_002",
+    "category": "beryl",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "question": "アクアマリンの色として正しいものはどれですか？",
+    "options": ["空色〜青緑色", "赤色〜橙色", "黄色〜緑色", "紫色〜桃色"],
+    "correct_index": 0,
+    "explanation": "アクアマリンはラテン語で「海の水」を意味し、透明な水色から青緑色のベリルです。鉄（Fe²⁺）による発色で、加熱処理によって青みが強まることがあります。",
+    "image_name": null,
+    "tags": ["aquamarine", "basic", "color"]
+  },
+  {
+    "id": "beryl_003",
+    "category": "beryl",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "question": "エメラルドの緑色の原因元素はどれですか？",
+    "options": ["鉄", "マンガン", "クロム・バナジウム", "銅"],
+    "correct_index": 2,
+    "explanation": "エメラルドの緑色はクロム（Cr）またはバナジウム（V）によるものです。どちらの元素が主体かにより、産地によって色調に違いが生まれます。",
+    "image_name": null,
+    "tags": ["emerald", "color", "cause_of_color"]
+  },
+  {
+    "id": "beryl_004",
+    "category": "beryl",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "question": "エメラルドの内包物の集合体を指すフランス語由来の用語はどれですか？",
+    "options": ["インクルージョン", "ジャルダン", "テネブレッセンス", "アデュラレッセンス"],
+    "correct_index": 1,
+    "explanation": "エメラルドの内部に見られる内包物・ひびの集合体は「ジャルダン（jardin）」と呼ばれます。フランス語で「庭」を意味し、エメラルド特有の自然な景観として受け入れられています。",
+    "image_name": null,
+    "tags": ["emerald", "inclusion", "jardin"]
+  },
+  {
+    "id": "beryl_005",
+    "category": "beryl",
+    "difficulty": 4,
+    "type": "multiple_choice",
+    "question": "ベリルの屈折率として正しいものはどれですか？",
+    "options": ["1.544〜1.553", "1.577〜1.583", "1.624〜1.644", "1.760〜1.768"],
+    "correct_index": 1,
+    "explanation": "ベリルの屈折率はo光線1.577〜1.583、e光線1.572〜1.578の範囲です。一軸性（負）の複屈折を示します。エメラルドもアクアマリンも同じベリルなのでほぼ同じ屈折率を示します。",
+    "image_name": null,
+    "tags": ["refractive_index", "optics", "advanced"]
+  }
+]

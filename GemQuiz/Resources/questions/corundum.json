@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "id": "corundum_001",
+    "category": "corundum",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "question": "赤いコランダムの宝石名はどれですか？",
+    "options": ["サファイア", "ルビー", "エメラルド", "スピネル"],
+    "correct_index": 1,
+    "explanation": "赤いコランダムはルビーと呼ばれます。赤色はクロム（Cr）による発色です。それ以外の色のコランダムはすべてサファイアと呼ばれます。",
+    "image_name": null,
+    "tags": ["ruby", "basic", "color"]
+  },
+  {
+    "id": "corundum_002",
+    "category": "corundum",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "question": "コランダムのモース硬度はいくつですか？",
+    "options": ["7", "8", "9", "10"],
+    "correct_index": 2,
+    "explanation": "コランダム（ルビー・サファイア）のモース硬度は9で、ダイヤモンド（10）に次いで硬い天然宝石の一つです。",
+    "image_name": null,
+    "tags": ["hardness", "basic"]
+  },
+  {
+    "id": "corundum_003",
+    "category": "corundum",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "question": "ブルーサファイアの青色の原因となる元素の組み合わせはどれですか？",
+    "options": ["クロム＋バナジウム", "鉄＋チタン", "マンガン＋鉄", "銅＋亜鉛"],
+    "correct_index": 1,
+    "explanation": "ブルーサファイアの青色は、鉄（Fe）とチタン（Ti）の間の電荷移動によるものです。この組み合わせが特徴的な深い青色を生み出します。",
+    "image_name": null,
+    "tags": ["color", "cause_of_color", "sapphire"]
+  },
+  {
+    "id": "corundum_004",
+    "category": "corundum",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "question": "最高品質とされるルビーの産地はどこですか？",
+    "options": ["タイ", "オーストラリア", "ミャンマー（モゴック）", "マダガスカル"],
+    "correct_index": 2,
+    "explanation": "ミャンマーのモゴック産ルビーは「ピジョンブラッド（鳩の血）」と呼ばれる最高品質の赤色で知られ、世界最高級とされます。蛍光性も非常に強いのが特徴です。",
+    "image_name": null,
+    "tags": ["origin", "ruby", "quality"]
+  },
+  {
+    "id": "corundum_005",
+    "category": "corundum",
+    "difficulty": 4,
+    "type": "multiple_choice",
+    "question": "コランダムの屈折率として正しいものはどれですか？",
+    "options": ["1.544〜1.553", "1.624〜1.644", "1.760〜1.768", "1.430〜1.440"],
+    "correct_index": 2,
+    "explanation": "コランダム（ルビー・サファイア）の屈折率はo光線1.760、e光線1.768〜1.772の範囲です。一軸性（負）の複屈折性を示します。",
+    "image_name": null,
+    "tags": ["refractive_index", "optics", "advanced"]
+  }
+]

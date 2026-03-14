@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "id": "treatment_001",
+    "category": "treatment",
+    "difficulty": 1,
+    "type": "multiple_choice",
+    "question": "ルビー・サファイアに最も一般的に行われる処理はどれですか？",
+    "options": ["含浸処理", "加熱処理", "コーティング", "放射線照射"],
+    "correct_index": 1,
+    "explanation": "ルビー・サファイアには加熱処理（ヒート処理）が最も一般的です。透明度の改善や色の強化・均一化が目的で、市場に流通するコランダムの大半が加熱処理品です。",
+    "image_name": null,
+    "tags": ["treatment", "heat", "corundum", "basic"]
+  },
+  {
+    "id": "treatment_002",
+    "category": "treatment",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "question": "エメラルドに一般的に行われる、内部のひびを充填する処理はどれですか？",
+    "options": ["加熱処理", "放射線照射", "オイル含浸処理", "ベリリウム拡散処理"],
+    "correct_index": 2,
+    "explanation": "エメラルドはジャルダン（内部のひびや内包物）が多いため、オイルやレジン（樹脂）を含浸させて透明度を改善する処理が一般的です。シダーオイルが伝統的に使われてきました。",
+    "image_name": null,
+    "tags": ["treatment", "oil", "emerald"]
+  },
+  {
+    "id": "treatment_003",
+    "category": "treatment",
+    "difficulty": 2,
+    "type": "multiple_choice",
+    "question": "合成ダイヤモンドの製造方法として現在主流の2つはどれですか？",
+    "options": ["HPHT法とCVD法", "フラックス法とチョクラルスキー法", "水熱合成法と引き上げ法", "焼結法と蒸着法"],
+    "correct_index": 0,
+    "explanation": "合成ダイヤモンドの主な製造方法はHPHT（高温高圧）法とCVD（化学気相堆積）法の2つです。HPHT法は自然環境を模倣し、CVD法はガスから炭素を堆積させます。",
+    "image_name": null,
+    "tags": ["synthetic", "diamond", "HPHT", "CVD"]
+  },
+  {
+    "id": "treatment_004",
+    "category": "treatment",
+    "difficulty": 3,
+    "type": "multiple_choice",
+    "question": "ベリリウム拡散処理が問題となった主な宝石はどれですか？",
+    "options": ["エメラルド", "ルビー・サファイア", "ダイヤモンド", "アレキサンドライト"],
+    "correct_index": 1,
+    "explanation": "2000年代初頭、パパラチャサファイアなどにベリリウムを高温拡散させ色変化させた処理品が市場に流通し問題になりました。通常の鑑別では検出困難でLA-ICP-MSなどの高度な分析が必要です。",
+    "image_name": null,
+    "tags": ["treatment", "beryllium", "diffusion", "sapphire"]
+  },
+  {
+    "id": "treatment_005",
+    "category": "treatment",
+    "difficulty": 4,
+    "type": "multiple_choice",
+    "question": "ガラス充填処理ルビーを無処理ルビーと区別する最も有効な手段はどれですか？",
+    "options": ["屈折率の測定", "ガス気泡の顕微鏡観察と紫外線蛍光観察", "比重測定", "硬度テスト"],
+    "correct_index": 1,
+    "explanation": "ガラス充填（鉛ガラス含浸）ルビーは顕微鏡でガス気泡や流動構造を確認でき、紫外線下でオレンジ色蛍光を示すことが多いです。鉛成分をLA-ICP-MSで検出する方法も有効です。",
+    "image_name": null,
+    "tags": ["treatment", "glass_filling", "ruby", "identification", "advanced"]
+  }
+]
