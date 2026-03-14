@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7777000000000000AAAAAAAA /* GemQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222000000000000AAAAAAAA /* GemQuizApp.swift */; };
+		7777000000000000BBBBBBBB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222000000000000BBBBBBBB /* HomeView.swift */; };
+		7777000000000000CCCCCCCC /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222000000000000CCCCCCCC /* QuizView.swift */; };
+		7777000000000000DDDDDDDD /* QuestionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222000000000000DDDDDDDD /* QuestionCardView.swift */; };
+		7777000000000000EEEEEEEE /* AnswerButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222000000000000EEEEEEEE /* AnswerButtonView.swift */; };
+		7777000000000000FFFFFFFF /* ExplanationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222000000000000FFFFFFFF /* ExplanationView.swift */; };
+		8888000000000000AAAAAAAA /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3333000000000000AAAAAAAA /* ResultView.swift */; };
+		8888000000000000BBBBBBBB /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3333000000000000BBBBBBBB /* StatsView.swift */; };
+		8888000000000000CCCCCCCC /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3333000000000000CCCCCCCC /* ReviewView.swift */; };
+		8888000000000000DDDDDDDD /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3333000000000000DDDDDDDD /* Question.swift */; };
+		8888000000000000EEEEEEEE /* QuizSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3333000000000000EEEEEEEE /* QuizSession.swift */; };
+		8888000000000000FFFFFFFF /* AnswerRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3333000000000000FFFFFFFF /* AnswerRecord.swift */; };
+		9999000000000000AAAAAAAA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444000000000000AAAAAAAA /* HomeViewModel.swift */; };
+		9999000000000000BBBBBBBB /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444000000000000BBBBBBBB /* QuizViewModel.swift */; };
+		9999000000000000CCCCCCCC /* StatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444000000000000CCCCCCCC /* StatsViewModel.swift */; };
+		9999000000000000DDDDDDDD /* QuestionLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444000000000000DDDDDDDD /* QuestionLoader.swift */; };
+		9999000000000000EEEEEEEE /* ProgressStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444000000000000EEEEEEEE /* ProgressStore.swift */; };
+		9999000000000000FFFFFFFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4444000000000000FFFFFFFF /* Assets.xcassets */; };
+		AAAB000000000000AAAAAAAA /* diamond.json in Resources */ = {isa = PBXBuildFile; fileRef = 5555000000000000AAAAAAAA /* diamond.json */; };
+		AAAB000000000000BBBBBBBB /* corundum.json in Resources */ = {isa = PBXBuildFile; fileRef = 5555000000000000BBBBBBBB /* corundum.json */; };
+		AAAB000000000000CCCCCCCC /* beryl.json in Resources */ = {isa = PBXBuildFile; fileRef = 5555000000000000CCCCCCCC /* beryl.json */; };
+		AAAB000000000000DDDDDDDD /* quartz.json in Resources */ = {isa = PBXBuildFile; fileRef = 5555000000000000DDDDDDDD /* quartz.json */; };
+		AAAB000000000000EEEEEEEE /* precious.json in Resources */ = {isa = PBXBuildFile; fileRef = 5555000000000000EEEEEEEE /* precious.json */; };
+		AAAB000000000000FFFFFFFF /* gemology.json in Resources */ = {isa = PBXBuildFile; fileRef = 5555000000000000FFFFFFFF /* gemology.json */; };
+		AAAC000000000000AAAAAAAA /* origin.json in Resources */ = {isa = PBXBuildFile; fileRef = 6666000000000000AAAAAAAA /* origin.json */; };
+		AAAC000000000000BBBBBBBB /* treatment.json in Resources */ = {isa = PBXBuildFile; fileRef = 6666000000000000BBBBBBBB /* treatment.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2222000000000000AAAAAAAA /* GemQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemQuizApp.swift; sourceTree = "<group>"; };
+		2222000000000000BBBBBBBB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2222000000000000CCCCCCCC /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		2222000000000000DDDDDDDD /* QuestionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCardView.swift; sourceTree = "<group>"; };
+		2222000000000000EEEEEEEE /* AnswerButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerButtonView.swift; sourceTree = "<group>"; };
+		2222000000000000FFFFFFFF /* ExplanationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplanationView.swift; sourceTree = "<group>"; };
+		3333000000000000AAAAAAAA /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		3333000000000000BBBBBBBB /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		3333000000000000CCCCCCCC /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		3333000000000000DDDDDDDD /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		3333000000000000EEEEEEEE /* QuizSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSession.swift; sourceTree = "<group>"; };
+		3333000000000000FFFFFFFF /* AnswerRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRecord.swift; sourceTree = "<group>"; };
+		4444000000000000AAAAAAAA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		4444000000000000BBBBBBBB /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewModel.swift; sourceTree = "<group>"; };
+		4444000000000000CCCCCCCC /* StatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewModel.swift; sourceTree = "<group>"; };
+		4444000000000000DDDDDDDD /* QuestionLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionLoader.swift; sourceTree = "<group>"; };
+		4444000000000000EEEEEEEE /* ProgressStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressStore.swift; sourceTree = "<group>"; };
+		4444000000000000FFFFFFFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5555000000000000AAAAAAAA /* diamond.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = diamond.json; sourceTree = "<group>"; };
+		5555000000000000BBBBBBBB /* corundum.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = corundum.json; sourceTree = "<group>"; };
+		5555000000000000CCCCCCCC /* beryl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = beryl.json; sourceTree = "<group>"; };
+		5555000000000000DDDDDDDD /* quartz.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quartz.json; sourceTree = "<group>"; };
+		5555000000000000EEEEEEEE /* precious.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = precious.json; sourceTree = "<group>"; };
+		5555000000000000FFFFFFFF /* gemology.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gemology.json; sourceTree = "<group>"; };
+		6666000000000000AAAAAAAA /* origin.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = origin.json; sourceTree = "<group>"; };
+		6666000000000000BBBBBBBB /* treatment.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = treatment.json; sourceTree = "<group>"; };
+		AAAA000000000000CCCCCCCC /* GemQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GemQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBBB000000000000CCCCCCCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1111000000000000AAAAAAAA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1111000000000000BBBBBBBB /* questions */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1111000000000000BBBBBBBB /* questions */ = {
+			isa = PBXGroup;
+			children = (
+				5555000000000000AAAAAAAA /* diamond.json */,
+				5555000000000000BBBBBBBB /* corundum.json */,
+				5555000000000000CCCCCCCC /* beryl.json */,
+				5555000000000000DDDDDDDD /* quartz.json */,
+				5555000000000000EEEEEEEE /* precious.json */,
+				5555000000000000FFFFFFFF /* gemology.json */,
+				6666000000000000AAAAAAAA /* origin.json */,
+				6666000000000000BBBBBBBB /* treatment.json */,
+			);
+			path = questions;
+			sourceTree = "<group>";
+		};
+		AAAA000000000000DDDDDDDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAAA000000000000CCCCCCCC /* GemQuiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEEE000000000000AAAAAA01 /* GemQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				EEEE000000000000BBBBBBBB /* App */,
+				EEEE000000000000CCCCCCCC /* Models */,
+				EEEE000000000000DDDDDDDD /* ViewModels */,
+				EEEE000000000000EEEEEEEE /* Views */,
+				FFFF000000000000FFFFFFFF /* Services */,
+				1111000000000000AAAAAAAA /* Resources */,
+			);
+			path = GemQuiz;
+			sourceTree = "<group>";
+		};
+		EEEE000000000000AAAAAAAA = {
+			isa = PBXGroup;
+			children = (
+				EEEE000000000000AAAAAA01 /* GemQuiz */,
+				AAAA000000000000DDDDDDDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEEE000000000000BBBBBBBB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2222000000000000AAAAAAAA /* GemQuizApp.swift */,
+				4444000000000000FFFFFFFF /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EEEE000000000000CCCCCCCC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3333000000000000DDDDDDDD /* Question.swift */,
+				3333000000000000EEEEEEEE /* QuizSession.swift */,
+				3333000000000000FFFFFFFF /* AnswerRecord.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EEEE000000000000DDDDDDDD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4444000000000000AAAAAAAA /* HomeViewModel.swift */,
+				4444000000000000BBBBBBBB /* QuizViewModel.swift */,
+				4444000000000000CCCCCCCC /* StatsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EEEE000000000000EEEEEEEE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EEEE000000000000FFFFFFFF /* Home */,
+				FFFF000000000000AAAAAAAA /* Quiz */,
+				FFFF000000000000BBBBBBBB /* Explanation */,
+				FFFF000000000000CCCCCCCC /* Result */,
+				FFFF000000000000DDDDDDDD /* Stats */,
+				FFFF000000000000EEEEEEEE /* Review */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EEEE000000000000FFFFFFFF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2222000000000000BBBBBBBB /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FFFF000000000000AAAAAAAA /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				2222000000000000CCCCCCCC /* QuizView.swift */,
+				2222000000000000DDDDDDDD /* QuestionCardView.swift */,
+				2222000000000000EEEEEEEE /* AnswerButtonView.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+		FFFF000000000000BBBBBBBB /* Explanation */ = {
+			isa = PBXGroup;
+			children = (
+				2222000000000000FFFFFFFF /* ExplanationView.swift */,
+			);
+			path = Explanation;
+			sourceTree = "<group>";
+		};
+		FFFF000000000000CCCCCCCC /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				3333000000000000AAAAAAAA /* ResultView.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		FFFF000000000000DDDDDDDD /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				3333000000000000BBBBBBBB /* StatsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		FFFF000000000000EEEEEEEE /* Review */ = {
+			isa = PBXGroup;
+			children = (
+				3333000000000000CCCCCCCC /* ReviewView.swift */,
+			);
+			path = Review;
+			sourceTree = "<group>";
+		};
+		FFFF000000000000FFFFFFFF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4444000000000000DDDDDDDD /* QuestionLoader.swift */,
+				4444000000000000EEEEEEEE /* ProgressStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAAA000000000000BBBBBBBB /* GemQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCCC000000000000BBBBBBBB /* Build configuration list for PBXNativeTarget "GemQuiz" */;
+			buildPhases = (
+				BBBB000000000000AAAAAAAA /* Sources */,
+				BBBB000000000000BBBBBBBB /* Resources */,
+				BBBB000000000000CCCCCCCC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GemQuiz;
+			productName = GemQuiz;
+			productReference = AAAA000000000000CCCCCCCC /* GemQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAAA000000000000AAAAAAAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					AAAA000000000000BBBBBBBB = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = CCCC000000000000AAAAAAAA /* Build configuration list for PBXProject "GemQuiz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ja,
+				en,
+				Base,
+			);
+			mainGroup = EEEE000000000000AAAAAAAA;
+			productRefGroup = AAAA000000000000DDDDDDDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAAA000000000000BBBBBBBB /* GemQuiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBBB000000000000BBBBBBBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9999000000000000FFFFFFFF /* Assets.xcassets in Resources */,
+				AAAB000000000000AAAAAAAA /* diamond.json in Resources */,
+				AAAB000000000000BBBBBBBB /* corundum.json in Resources */,
+				AAAB000000000000CCCCCCCC /* beryl.json in Resources */,
+				AAAB000000000000DDDDDDDD /* quartz.json in Resources */,
+				AAAB000000000000EEEEEEEE /* precious.json in Resources */,
+				AAAB000000000000FFFFFFFF /* gemology.json in Resources */,
+				AAAC000000000000AAAAAAAA /* origin.json in Resources */,
+				AAAC000000000000BBBBBBBB /* treatment.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBBB000000000000AAAAAAAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7777000000000000AAAAAAAA /* GemQuizApp.swift in Sources */,
+				7777000000000000BBBBBBBB /* HomeView.swift in Sources */,
+				7777000000000000CCCCCCCC /* QuizView.swift in Sources */,
+				7777000000000000DDDDDDDD /* QuestionCardView.swift in Sources */,
+				7777000000000000EEEEEEEE /* AnswerButtonView.swift in Sources */,
+				7777000000000000FFFFFFFF /* ExplanationView.swift in Sources */,
+				8888000000000000AAAAAAAA /* ResultView.swift in Sources */,
+				8888000000000000BBBBBBBB /* StatsView.swift in Sources */,
+				8888000000000000CCCCCCCC /* ReviewView.swift in Sources */,
+				8888000000000000DDDDDDDD /* Question.swift in Sources */,
+				8888000000000000EEEEEEEE /* QuizSession.swift in Sources */,
+				8888000000000000FFFFFFFF /* AnswerRecord.swift in Sources */,
+				9999000000000000AAAAAAAA /* HomeViewModel.swift in Sources */,
+				9999000000000000BBBBBBBB /* QuizViewModel.swift in Sources */,
+				9999000000000000CCCCCCCC /* StatsViewModel.swift in Sources */,
+				9999000000000000DDDDDDDD /* QuestionLoader.swift in Sources */,
+				9999000000000000EEEEEEEE /* ProgressStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DDDD000000000000AAAAAAAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDDD000000000000BBBBBBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDDD000000000000CCCCCCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gemquiz.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DDDD000000000000DDDDDDDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gemquiz.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCCC000000000000AAAAAAAA /* Build configuration list for PBXProject "GemQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDD000000000000AAAAAAAA /* Debug */,
+				DDDD000000000000BBBBBBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCCC000000000000BBBBBBBB /* Build configuration list for PBXNativeTarget "GemQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDD000000000000CCCCCCCC /* Debug */,
+				DDDD000000000000DDDDDDDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAAA000000000000AAAAAAAA /* Project object */;
+}
